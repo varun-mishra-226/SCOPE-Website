@@ -1,0 +1,66 @@
+.container{
+    clear:both;
+    overflow:auto;
+    }
+
+    .navs li{float:right;}
+
+    .logo img{float:left;}
+    .navs ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(38, 38, 59);
+            }
+
+    .navs li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 25px 16px;
+            text-decoration: none;
+        } 
+
+    .navs ul li a:hover{
+    color:orange;
+    
+    }
+    .main-section
+    {
+        background-image: url('../images/backgg.jpg');
+        height: 150px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        padding: 150px;
+        text-shadow: 3px 3px 3px black;
+    }
+    .main-section button
+    {
+        padding: 20px 30px;
+        margin: 30px;
+        background-color: rgb(38, 38, 59);
+        border: none;
+        cursor: pointer;
+        color: white;
+    }
+    .abtvit{
+        float:right;
+    }
+    h1,h2{
+        text-align: center;
+    }
+    .aboutvit-section{
+        padding: 50px;
+    }
+    .aboutscope-section{
+        padding: 50px;
+    }
+    footer{
+        background-color: rgb(38, 38, 59);
+        padding: 20px;
+        color: white;
+    }
